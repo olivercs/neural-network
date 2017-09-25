@@ -1,0 +1,24 @@
+{
+  "name": "neural-network",
+  "version": "1.0.0",
+  "description": "Neural Network in ES6 [PoC]",
+  "main": "dist/Network.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "babel-node ./src/demo.js",
+    "prepublish": "babel src -d dist"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Oliver Castillo <olivercs@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "mathjs": "^3.16.3"
+  }
+}
